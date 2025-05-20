@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CHOICE=$(nsxiv -otb $HOME/Pictures/Backgrounds/*)
+
+case $CHOICE in
+	*.*) wal -i "$CHOICE";;
+	*) exit 0;;
+esac

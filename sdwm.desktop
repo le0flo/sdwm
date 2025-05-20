@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Small dwm
+Comment=A minimal dwm build
+Exec=/usr/local/bin/sdwm
+Type=XSession
